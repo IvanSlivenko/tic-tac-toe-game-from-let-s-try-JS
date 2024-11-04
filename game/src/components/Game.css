@@ -6,4 +6,28 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    
+}
+
+.start__btn {
+    width: 200px;
+    height: 35px;
+    margin-bottom: 25px;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    background: #222222;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.start__btn:hover {
+    background-color: gray;
+    transition: .3s all ease;
+}
+
+.game__info {
+    font-size: 36px;
+    margin-top: 10px;
+    color: white;
 }
